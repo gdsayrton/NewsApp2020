@@ -1,0 +1,85 @@
+html,body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    font-family: Arial;
+    font-size:10px;
+    padding: 5px;
+    color: #2E2E2E;
+    /*background: #F2F2F2;*/
+
+}
+
+h1 {
+    font-size:24px;
+}
+
+h2 {
+    font-size:20px;
+}
+
+h3 {
+    font-size:16px;
+}
+
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid  black;
+}
+  
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+  
+th {
+    background-color: #333;
+    color: white;
+}
+
+.colourband2 {
+    padding-right:10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color:#A4A4A4
+}
+
+.ulMenu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.liMenu {
+float: left;
+border-right:1px solid #bbb;
+display: block;
+color: white;
+text-align: center;
+padding: 7px 13px;
+text-decoration: none;
+}
+
+.active {
+background-color: #6E6E6E;
+}
+
+.justifyTxt{
+    text-align: justify;
+}
+
+.centerTxt{
+    text-align: center;
+}
+
+#myInput {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 5px 3px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
