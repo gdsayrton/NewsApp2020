@@ -100,14 +100,17 @@ function getNews(type) {
     })
 }
 
+//To use the camera, there is a plugin which it needs to be used to take pictures, This line of code call a function from API
 function pics(){
     navigator.camera.getPicture(cameraCallback, onError);
 }
 
+//callback function to get the image and put it on the screen
 function cameraCallback(imageData) {
     var image = document.getElementById('myImage');
     image.src = imageData;    }
 
+//In case the camera does not work, an error message is thrown
 function onError (msg) {
     alert('Error trying to access the camera ' + msg)
 }

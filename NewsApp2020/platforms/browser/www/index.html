@@ -48,14 +48,15 @@
     <div class="app">
 
         <h1>NEWS APP </h1>
-        
+        <br>
+
         <!-- Button used to take a picture -->
         <button id="buttonPic" onclick="pics()"> Camera </button>
+        <br><br>
 
+        <img id="myImage" style="width:100%;height:200px;"></img>
         <br><br>
-        <img id="myImage" style="width:300px;height:200px;">"></img>
-        
-        <br><br>
+
         <nav> <!-- This nav menu was taken from my Web Development project -->
             <ul class="ulMenu">
                 <li class="liMenu" onclick="getNews('business')">Business</li> <!--The <a> tag defines a hyperlink, which is used to link from one page to another.-->
@@ -63,11 +64,11 @@
                 <li class="liMenu" onclick="getNews('financial')">Financial</li>
             </ul>
         </nav>
-
         <br><br>
+
         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for news" title="Type in a news">
-
         <br><br>
+
         <div id="tablePrint"> </div>
 
     </div>
